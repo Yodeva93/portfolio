@@ -21,9 +21,9 @@ const ExperienceCard: React.FC<TExperience> = (experience) => {
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
-      iconStyle={{ background: experience.iconBg }}
+      iconStyle={{ background: "#ffffff" }}
       icon={
-        <div className="flex h-full w-full items-center justify-center">
+        <div className="flex h-full w-full items-center justify-center rounded-full bg-white p-1">
           <img
             src={experience.icon}
             alt={experience.companyName}

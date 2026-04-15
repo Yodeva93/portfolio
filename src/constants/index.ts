@@ -8,30 +8,22 @@ import type {
 } from "../types";
 
 import {
-  mobile,
-  backend,
-  creator,
   web,
   javascript,
-  typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
-  nodejs,
-  mongodb,
+  jquery,
+  json,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
+  teamlead,
+  clienticon,
+  f5global,
+  cheeseroom,
+  oscarintkw,
+  tryautobrush,
+  inventeryCo,
+  readyMadeCo,
   shopify,
-  carrent,
-  jobit,
-  tripguide,
-  threejs,
 } from "../assets";
 
 export const navLinks: TNavLink[] = [
@@ -44,27 +36,31 @@ export const navLinks: TNavLink[] = [
     title: "Work",
   },
   {
-    id: "contact",
-    title: "Contact",
+    id: "projects",
+    title: "Projects",
   },
 ];
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "Certified Shopify Expert",
+    icon: shopify,
+    level: 100,
+  },
+  {
+    title: "Team Lead",
+    icon: teamlead,
+    level: 90,
+  },
+  {
+    title: "Shopify Theme Dev",
     icon: web,
+    level: 95,
   },
   {
-    title: "React Native Developer",
-    icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
+    title: "Client Interaction",
+    icon: clienticon,
+    level: 88,
   },
 ];
 
@@ -82,192 +78,162 @@ const technologies: TTechnology[] = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Liquid",
+    icon: shopify,
   },
   {
-    name: "React JS",
-    icon: reactjs,
+    name: "jQuery",
+    icon: jquery,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "JSON",
+    icon: json,
   },
   {
-    name: "Tailwind CSS",
-    icon: tailwind,
-  },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
-  },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "git",
+    name: "Git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
   },
 ];
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
+    title: "Junior Web Developer",
+    companyName: "Real Cube Technologies",
+    icon: "https://www.google.com/s2/favicons?domain=realcubetechnology.com&sz=64",
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "2019 - 2020",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Joined as a trainee to kickstart my professional development journey in web technologies.",
+      "Learned and applied Shopify theme fundamentals including Liquid templating and store customization.",
+      "Assisted senior developers in building and maintaining client storefronts.",
+      "Gained hands-on experience with HTML, CSS, and JavaScript in real project environments.",
+      "Participated in team meetings and code reviews to understand professional development workflows.",
     ],
   },
   {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
+    title: "Shopify Developer",
+    companyName: "Stark Edge",
+    icon: "https://www.google.com/s2/favicons?domain=www.starkedge.com&sz=64",
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "2020 - 2021",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Worked as a Shopify developer building and customizing themes for client stores.",
+      "Developed custom Liquid templates and sections to match brand requirements.",
+      "Implemented JavaScript and jQuery enhancements for improved store interactivity.",
+      "Collaborated with designers to translate mockups into pixel-perfect Shopify storefronts.",
+      "Handled app integrations and third-party plugin configurations for various merchants.",
     ],
   },
   {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
+    title: "Sr. Shopify Developer",
+    companyName: "Code Dreamz",
+    icon: "https://www.google.com/s2/favicons?domain=codedreamz.com&sz=64",
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "2021 - 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Led Shopify theme development for multiple client stores as a senior developer.",
+      "Architected custom Liquid sections, templates, and reusable components for scalable storefronts.",
+      "Mentored junior developers and conducted code reviews to maintain code quality.",
+      "Handled complex app integrations, custom checkout flows, and performance optimizations.",
+      "Collaborated directly with clients to gather requirements and deliver tailored eCommerce solutions.",
     ],
   },
   {
-    title: "Full stack Developer",
-    companyName: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    title: "Sr. Shopify Developer → Team Lead",
+    companyName: "Techies Infotech",
+    icon: "https://www.google.com/s2/favicons?domain=iamtechie.com&sz=64",
+    iconBg: "#ffffff",
+    date: "2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Joined as Sr. Shopify Developer and promoted to Shopify Team Lead based on performance.",
+      "Leading the full Shopify development team — managing tasks, timelines, and project delivery.",
+      "Training and mentoring new developers to build strong Shopify theme and Liquid skills.",
+      "Acting as the primary point of contact between clients, mobile teams, and backend teams.",
+      "Ensuring code quality, best practices, and on-time delivery across all active projects.",
     ],
-  },
+  }
 ];
 
-const testimonials: TTestimonial[] = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+const testimonials: TTestimonial[] = [];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
+    name: "AutoBrush",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "My first solo Shopify project completed during my learning phase — successfully delivered a fully functional storefront independently, marking a key milestone in my Shopify journey.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
+      { name: "shopify", color: "blue-text-gradient" },
+      { name: "liquid", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: carrent,
-    sourceCodeLink: "https://github.com/",
+    image: tryautobrush,
+    sourceCodeLink: "https://tryautobrush.com/",
+    favicon: "https://www.google.com/s2/favicons?domain=tryautobrush.com&sz=64",
   },
   {
-    name: "Job IT",
+    name: "F5 Global",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Led the full Shopify store build from scratch as Team Lead — architecting the theme, managing the dev team, and delivering a custom storefront for a fashion brand.",
     tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
+      { name: "shopify", color: "blue-text-gradient" },
+      { name: "liquid", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: jobit,
-    sourceCodeLink: "https://github.com/",
+    image: f5global,
+    sourceCodeLink: "https://f5global.com",
+    favicon: "https://www.google.com/s2/favicons?domain=f5global.com&sz=64",
   },
   {
-    name: "Trip Guide",
+    name: "Cheese Room",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Custom Shopify storefront for a specialty cheese brand — guided the dev team, interacted directly with the store owner to gather requirements and deliver a tailored theme.",
     tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      { name: "shopify", color: "blue-text-gradient" },
+      { name: "liquid", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
     ],
-    image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    image: cheeseroom,
+    sourceCodeLink: "https://cheeseroom.com/",
+    favicon: "https://www.google.com/s2/favicons?domain=cheeseroom.com&sz=64",
+  },
+  {
+    name: "Oscar",
+    description:
+      "Large-scale project spanning a Shopify website, mobile app, and custom OMS — led the website team and coordinated with mobile, backend teams and the client to deliver end to end.",
+    tags: [
+      { name: "shopify", color: "blue-text-gradient" },
+      { name: "liquid", color: "green-text-gradient" },
+      { name: "custom-oms", color: "pink-text-gradient" },
+    ],
+    image: oscarintkw,
+    sourceCodeLink: "https://www.oscarintkw.com/",
+    favicon: "https://www.google.com/s2/favicons?domain=oscarintkw.com&sz=64",
+  },
+  {
+    name: "Inventery",
+    description:
+      "Custom Shopify storefront for Inventery — built and delivered a clean, conversion-focused theme with tailored sections and smooth shopping experience.",
+    tags: [
+      { name: "shopify", color: "blue-text-gradient" },
+      { name: "liquid", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
+    ],
+    image: inventeryCo,
+    sourceCodeLink: "https://www.inventery.co/",
+    favicon: "https://www.google.com/s2/favicons?domain=inventery.co&sz=64",
+  },
+  {
+    name: "Ready Made",
+    description:
+      "Shopify theme development for Ready Made — crafted a polished storefront with custom layouts, product pages, and brand-aligned design.",
+    tags: [
+      { name: "shopify", color: "blue-text-gradient" },
+      { name: "liquid", color: "green-text-gradient" },
+      { name: "javascript", color: "pink-text-gradient" },
+    ],
+    image: readyMadeCo,
+    sourceCodeLink: "https://www.ready-made.co/",
+    favicon: "https://www.google.com/s2/favicons?domain=ready-made.co&sz=64",
   },
 ];
 

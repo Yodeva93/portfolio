@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#4A90D9"/>
+  <!-- Leader person -->
+  <circle cx="64" cy="32" r="14" fill="#fff"/>
+  <path d="M36 80 Q36 58 64 58 Q92 58 92 80" fill="#fff"/>
+  <!-- Team members -->
+  <circle cx="24" cy="72" r="10" fill="#ffffffaa"/>
+  <path d="M8 100 Q8 84 24 84 Q40 84 40 100" fill="#ffffffaa"/>
+  <circle cx="104" cy="72" r="10" fill="#ffffffaa"/>
+  <path d="M88 100 Q88 84 104 84 Q120 84 120 100" fill="#ffffffaa"/>
+</svg>

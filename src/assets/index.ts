@@ -20,13 +20,25 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import liquid from "./tech/liquid.svg";
+import jquery from "./tech/jquery.svg";
+import json from "./tech/json.svg";
+import teamlead from "./tech/teamlead.svg";
+import clienticon from "./tech/client.svg";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import realcube from "./company/realcube.svg";
 
+import f5global from "./f5global.png";
 import carrent from "./carrent.png";
+import cheeseroom from "./cheeseroom.png";
+import oscarintkw from "./oscarintkw.png";
+import tryautobrush from "./tryautobrush.png";
+import inventeryCo from "./inventery-co.png";
+import readyMadeCo from "./ready-made-co.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
@@ -52,11 +64,23 @@ export {
   tailwind,
   typescript,
   threejs,
+  liquid,
+  jquery,
+  json,
+  teamlead,
+  clienticon,
   meta,
   shopify,
   starbucks,
   tesla,
+  realcube,
+  f5global,
   carrent,
+  cheeseroom,
+  oscarintkw,
+  tryautobrush,
+  inventeryCo,
+  readyMadeCo,
   jobit,
   tripguide,
 };

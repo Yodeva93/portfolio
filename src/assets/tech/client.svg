@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <rect width="128" height="128" rx="16" fill="#E8A838"/>
+  <!-- Chat bubble left -->
+  <rect x="8" y="20" width="68" height="44" rx="10" fill="#fff"/>
+  <polygon points="18,64 8,80 34,64" fill="#fff"/>
+  <!-- Chat bubble right -->
+  <rect x="52" y="58" width="68" height="44" rx="10" fill="#ffffffcc"/>
+  <polygon points="110,102 120,118 94,102" fill="#ffffffcc"/>
+  <!-- Dots in bubbles -->
+  <circle cx="28" cy="42" r="5" fill="#E8A838"/>
+  <circle cx="42" cy="42" r="5" fill="#E8A838"/>
+  <circle cx="56" cy="42" r="5" fill="#E8A838"/>
+</svg>
