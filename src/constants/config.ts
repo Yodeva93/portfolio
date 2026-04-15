@@ -9,6 +9,8 @@ type TConfig = {
     title: string;
     fullName: string;
     email: string;
+    phone: string;
+    linkedin: string;
   };
   hero: {
     name: string;
@@ -43,6 +45,8 @@ export const config: TConfig = {
     title: "Amit Singh — Portfolio",
     fullName: "Amit Singh",
     email: "amitthakurwoods@gmail.com",
+    phone: "+91-9882079447",
+    linkedin: "https://www.linkedin.com/in/amit-thakur-893b0412a",
   },
   hero: {
     name: "Amit Singh",
