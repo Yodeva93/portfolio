@@ -28,7 +28,7 @@ const ProjectCard: React.FC<{ index: number } & TProject> = ({
         glareColor="#aaa6c3"
         className="h-full"
       >
-        <div className="bg-tertiary flex h-full w-full flex-col rounded-2xl p-5 sm:w-[300px]">
+        <div className="bg-tertiary flex h-full w-full flex-col rounded-2xl p-5">
           <div className="relative h-[230px] w-full">
             <img
               src={image}
@@ -79,7 +79,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap items-stretch gap-7">
+      <div className="mt-20 grid grid-cols-1 gap-7 sm:grid-cols-2 lg:grid-cols-3">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}
